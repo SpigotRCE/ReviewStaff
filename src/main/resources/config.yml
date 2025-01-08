@@ -1,0 +1,42 @@
+# -------------------------------------------------------------------------------------------------
+#
+#  _______  _______  __    _  _______  ___   _______  __   __  ______    _______  _______  ___   _______  __    _
+# |       ||       ||  |  | ||       ||   | |       ||  | |  ||    _ |  |   _   ||       ||   | |       ||  |  | |
+# |       ||   _   ||   |_| ||    ___||   | |    ___||  | |  ||   | ||  |  |_|  ||_     _||   | |   _   ||   |_| |
+# |       ||  | |  ||       ||   |___ |   | |   | __ |  |_|  ||   |_||_ |       |  |   |  |   | |  | |  ||       |
+# |      _||  |_|  ||  _    ||    ___||   | |   ||  ||       ||    __  ||       |  |   |  |   | |  |_|  ||  _    |
+# |     |_ |       || | |   ||   |    |   | |   |_| ||       ||   |  | ||   _   |  |   |  |   | |       || | |   |
+# |_______||_______||_|  |__||___|    |___| |_______||_______||___|  |_||__| |__|  |___|  |___| |_______||_|  |__|
+#                                           By SpigotRCE & Contributors
+#                      https://discord.gg/spigotrce https://github.com/spigotrce/reviewstaff
+#
+# -------------------------------------------------------------------------------------------------
+
+# Database configuration
+database:
+  # For now, it is only SQL
+  type: MYSQL
+  # Host:port of the database
+  host: localhost:3306
+  # Name of the database
+  name: db
+  # Username of the database
+  user: root
+  # Password of the database user
+  password: root
+  # Should use SSL
+  ssl: false
+
+# Discord configuration
+discord:
+  # Should the plugin post the reviews to a discord webhook
+  enabled: false
+  # Discord webhook URL
+  webhook: ""
+
+# Cooldown for the review command in seconds
+# By default it is one hour i.e. 3600 seconds
+command-cooldown: 3600
+
+# DO NOT EDIT
+file-version: 1
